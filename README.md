@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Template
+
+The wireframe for this project can be found on [Dribbble](https://dribbble.com/shots/15298655-Vanti/attachments/7053710?mode=media)
+
+![Template](public/template.webp)
+
 ## Available Scripts
 
 In the project directory, you can run:
