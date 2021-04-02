@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Template
 
-The wireframe for this project can be found on [Dribbble](https://dribbble.com/shots/15298655-Vanti/attachments/7053710?mode=media)
+The Vanti 🐙 wireframe for this project can be found on [Dribbble](https://dribbble.com/shots/15298655-Vanti/attachments/7053710?mode=media) designed by [Rafal Olbromski](https://dribbble.com/olbromski) 
 
 ![Template](public/template.webp)
 
