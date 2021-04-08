@@ -1,0 +1,19 @@
+button.AppButton{
+    background-color: var(--color-secondary);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 1.5vh 1.25vw;
+    font-size: small;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button.AppButton i{
+    color: black;
+    margin-right: 0.5vw;
+}
+
+button.AppButton[data-theme='warn']{
+    background-color: var(--color-warning);
+}

@@ -1,0 +1,79 @@
+.DashboardMainContentArea {
+  width: var(--width-main-content-area);
+  background-color: var(--color-bg);
+  padding: 3.5vh 1.5vw;
+}
+
+.DashboardMainContentArea .BrandHeader img {
+  height: var(--height-brand-icon);
+  width: var(--width-brand-icon);
+  margin-right: 1vw;
+}
+
+.DashboardMainContentArea .BrandHeader a {
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+  font-size: small;
+  font-weight: 100;
+  text-decoration: none;
+  margin: 0vh 1vw;
+  transition: opacity 0.25s linear;
+}
+
+.DashboardMainContentArea .BrandHeader a:hover {
+  opacity: 1;
+}
+
+.DashboardMainContentArea .BrandHeader a.Active {
+  opacity: 1;
+}
+
+.DashboardMainContentArea .BrandHeader .BrandHeaderActionIcon {
+  color: white;
+  padding: 1.5vh 0.75vw;
+  border: 1px solid #ffffff30;
+  border-radius: 8px;
+  margin-left: 0.2vw;
+  cursor: pointer;
+  transition: opacity 0.25s linear;
+}
+
+.DashboardMainContentArea .BrandHeader .BrandHeaderActionIcon:hover {
+  opacity: 0.7;
+}
+
+.FloatingNavBar{
+	top: 30vh;
+    left: 1.5vw;
+	background-color: black;
+	color: white;
+	border-radius: 8px;
+	padding: 0.75vh 0.25vw;
+}
+
+.FloatingNavBar i{
+	padding: 2.5vh 1vw;
+	border-radius: 8px;
+	opacity: 0.5;
+	cursor: pointer;
+	transition: opacity 0.25s linear;
+}
+
+.FloatingNavBar i.Active{
+	background-color: var(--color-secondary);
+}
+
+.FloatingNavBar i.Active,
+.FloatingNavBar i:hover{
+	opacity: 1;
+}
+
+.DashboardMainContentArea main{
+	margin-left: 5.5vw;
+	margin-top: 4vh;
+}
+
+.DashboardMainContentArea main header h2{
+	color: white;
+}

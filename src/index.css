@@ -1,13 +1,102 @@
+:root{
+	--color-bg: #1e1f22;
+	--color-sidenav-bg: #151618;
+	--color-brand-icon: #29d8b9;
+	--color-primary: #2bebc8;
+	--color-secondary: #6746ed;
+	--color-tertiary: #6746ed;
+	--color-warning: #f24646;
+
+	--width-app: 100vw;
+	--width-main-content-area: 75vw; 
+	--width-sidenav: 25vw;
+	--width-brand-icon: 3.5vw;
+
+	--height-app: 100vh;
+	--height-brand-icon: 7vh;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.Row{
+	display: flex;
+	flex-direction: row;
+}
+
+.Row.AlignCenterV{
+	align-items: center;
+}
+
+.Row.AlignStartV{
+	align-items: flex-start;
+}
+
+.Row.AlignCenterH{
+	justify-content: center;
+}
+
+.Row.AlignEndH{
+	justify-content: flex-end;
+}
+
+.Row.AlignSpaceBetweenH{
+	justify-content: space-between;
+}
+
+.Column{
+	display: flex;
+	flex-direction: column;
+}
+
+.Column.AlignCenterH{
+	align-items: center;
+}
+
+.Column.AlignCenterV{
+	justify-content: center;
+}
+
+.Row .FillParent,
+.Column .FillParent{
+	flex: 1;
+}
+
+.PositionRelative{
+	position: relative;
+}
+
+.PositionAbsolute{
+	position: absolute;
+}
+
+.MarginTop2x{
+	margin-top: 2vh;
+}
+
+.MarginTop4x{
+	margin-top: 4vh;
+}
+
+.MarginTop7x{
+	margin-top: 7vh;
+}
+
+.ColorPrimary{
+	color: var(--color-primary);
+}
+
+.ColorSecondary{
+	color: var(--color-secondary);
 }

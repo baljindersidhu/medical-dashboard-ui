@@ -1,0 +1,131 @@
+.SidenavContainer{
+    width: var(--width-sidenav);
+    background-color: var(--color-sidenav-bg);
+    padding: 3.5vh 1.5vw;
+    color: white;
+}
+
+.SidenavContainer .SearchBar{
+    background: black;
+    border-radius: 8px;
+    margin-top: 0.25vh;
+    padding: 1.5vh 1.5vw;
+}
+
+.SidenavContainer .SearchBar input{
+    margin-left: 0.5vw;
+    font-family: inherit;
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+
+.SidenavContainer .SearchBar input::placeholder{
+    opacity: 0.7;
+}
+
+.SidenavContainer section.UpgradePlan{
+    margin-top: 7.5vh;
+}
+
+.SidenavContainer .UserDetailsPanel{
+    padding: 2vh 1vw;
+    border: 1px solid #ffffff30;
+    border-radius: 8px;
+}
+
+.SidenavContainer .UserDetailsPanel img{
+    height: 6.5vh;
+    width: 3vw;
+    border-radius: 50%;
+    border: 2px solid var(--color-primary);
+    padding: 0.5vh 0.25vw;
+    margin-right: 1vw;
+}
+
+.SidenavContainer .UserDetailsPanel .Details .WelcomeMessage{
+    margin-top: 0.5vh;
+}
+
+.SidenavContainer .UserDetailsPanel .Details .Email {
+    font-weight: 100;
+    font-size: small;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.SidenavContainer .UserDetailsPanel .Details .Email:hover{
+    text-decoration: underline;
+}
+
+
+
+.SidenavContainer .UserDetailsPanel i.ri-more-fill{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity 0.25s linear;
+}
+
+.SidenavContainer .UserDetailsPanel i.ri-more-fill:hover{
+    opacity: 1;
+}
+
+.SidenavContainer .InsightsPanel .TopInsightsRow{
+    margin-top: 1vh;
+}
+
+.SidenavContainer .InsightsPanel .TopInsightsRow i {
+    color: black;
+    padding: 1.5vh;
+    border-radius: 4px;
+    margin-right: 1vw;
+}
+
+.SidenavContainer .InsightsPanel .TopInsightsRow i[data-trend-positive='true']{
+    background-color: var(--color-primary);
+}
+
+.SidenavContainer .InsightsPanel .TopInsightsRow i[data-trend-negative='true']{
+    background-color: var(--color-warning);
+}
+
+
+
+.SidenavContainer .InsightsPanel .TopInsightsRow p{
+    font-size: small;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 0px;
+}
+
+.SidenavContainer .InsightsPanel .TopInsightsRow p span.InsightHighlight{
+    color: white;
+    margin-right: 0.35vw;
+}
+
+.SidenavContainer .InsightsPanel .Separator{
+    height: 1px;
+    background-color: white;
+    opacity: 0.2;
+    margin-bottom: 2.5vh;
+}
+
+.SidenavContainer .ReferAFriendCard{
+    background-color: black;
+    border-radius: 16px;
+    padding: 4vh 2vw;
+    background-image: url(https://lh3.googleusercontent.com/proxy/jdZk8NH9yJ9FTmXfbD3yDKMPm9J4FDHBUM5ROFF8k1IO3s0b2Fog4CiiX9Lytb6NJvKEe3TiPm3rDug9Ipwnj5czKM0MuiNT62wyqHUVTBLpCWV44br4g-ruSDIboorr8zJl7vNwMhpU);
+}
+
+.SidenavContainer .ReferAFriendCard i{
+    right: 4vh;
+}
+
+.SidenavContainer .ReferAFriendCard h4{
+    margin: 0px;
+}
+
+.SidenavContainer .ReferAFriendCard p{
+    margin-top: 0.25vh;
+    opacity: 0.5;
+}
