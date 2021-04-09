@@ -108,13 +108,14 @@
     background-color: white;
     opacity: 0.2;
     margin-bottom: 2.5vh;
+    margin-left: 3.5vw;
 }
 
 .SidenavContainer .ReferAFriendCard{
     background-color: black;
     border-radius: 16px;
     padding: 4vh 2vw;
-    background-image: url(https://lh3.googleusercontent.com/proxy/jdZk8NH9yJ9FTmXfbD3yDKMPm9J4FDHBUM5ROFF8k1IO3s0b2Fog4CiiX9Lytb6NJvKEe3TiPm3rDug9Ipwnj5czKM0MuiNT62wyqHUVTBLpCWV44br4g-ruSDIboorr8zJl7vNwMhpU);
+    background-image: url(../../assets/images/refer-a-friend-card-bg.jpg);
 }
 
 .SidenavContainer .ReferAFriendCard i{
